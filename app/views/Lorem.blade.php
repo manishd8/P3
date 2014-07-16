@@ -13,8 +13,13 @@
 
 	<form action="/LIG" method="GET">
 	      <br/><br/>
-	      <input type="text" name="NumPara" maxlength="2" size = "2"/> Number of paragraph<br/><br/>      
+	      <input type="text" name="NumPara" maxlength="2" size = "2" value= <?php if($error=="no") {echo $NumPara;} ?> > Number of paragraph<br/><br/>      
 	 
+	 <?php
+	      if($error=="yes"){
+  			echo "Enter valid number";
+  		}?>
+
 	      <div class="HeadingBox">
 	        	<input class="Center" type="submit" value="Generate!"/>
 	      </div>
@@ -22,10 +27,6 @@
 
 	
   	<?php 
-
-  	if($error=="yes"){
-  		echo "Enter valid number";
-  	}
 
   	if($NumPara>"0") {
   		$generator = new Generator();
