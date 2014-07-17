@@ -50,8 +50,7 @@
 
 			if($Profile == 'on'){
 			echo "Profile: "; echo $faker->text;?><br/><?php }?>  
-			</div>
+		</div>
 		<?php } ?>
-	</div>
 </body>
 </html>
