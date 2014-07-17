@@ -25,10 +25,11 @@ Route::get('/RUG', function()
 	$Profile = "off";
 	$error = "no";
 	$NumUser = "0";
+	$lineWidth = "1";
 	foreach ($query as $key => $value) {
 		if($key=="NumUser")
 		{
-			if(($value>="0" && $value<="99") || $value==""){
+			if((is_numeric($value) && ($value>="0" && $value<="99")) || $value==""){
 				$NumUser = $value;
 			}
 			else
@@ -40,14 +41,20 @@ Route::get('/RUG', function()
 		if($key=="BirthDate")
 		{
 			$BirthDate = $value;
+			if($value == 'on')
+				$lineWidth++;
 		}
 		if($key=="Address")
 		{
 			$Address = $value;
+			if($value == 'on')
+				$lineWidth++;
 		}
 		if($key=="Profile")
 		{
 			$Profile = $value;
+			if($value == 'on')
+				$lineWidth++;
 		}
 	}
 	
@@ -57,6 +64,7 @@ Route::get('/RUG', function()
 			   ->with('error', $error)
 			   ->with('BirthDate', $BirthDate)
 			   ->with('Profile', $Profile)
+			   ->with('lineWidth', $lineWidth)
 			   ->with('Address', $Address);
 });
 
@@ -64,7 +72,7 @@ Route::get('/LIG', function()
 {
 	$query = Input::get('NumPara');
 	$error = "yes";
-	if(($query>="0" && $query<="99") || $query==""){
+	if((is_numeric($query) && ($query>="0" && $query<="99")) || $query==""){
 		$error = "no";
 	}
 	else{
