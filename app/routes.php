@@ -80,7 +80,7 @@ Route::get('/RPG', function()
 {
 	$OutputPassword='';
 	$caseFlag = 'off';
-	$WordArray = file(app_path().'\views\WordFile.txt');
+	$WordArray = file('data/WordFile.txt');
 	$WordCnt = 0;
 	$SymCnt = 1;
 	$numFlag = 'off';
