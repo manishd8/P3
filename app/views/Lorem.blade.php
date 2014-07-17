@@ -8,7 +8,7 @@
 </head>
 <body>
 	<div >
-		<a href='/'>Home</a>
+		<a href='/'>&#8592; Home</a>
 	</div>
 
 	<form action="/LIG" method="GET">

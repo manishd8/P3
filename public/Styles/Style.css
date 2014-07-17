@@ -1,0 +1,68 @@
+div.MainBox{
+	width: 330px;
+	height: 300px;
+	margin: 0 auto;
+}
+
+div.MainBox1{
+	width: 304px;
+	height: 30px;
+	margin: 0 auto;
+}
+
+div.MainBox2{
+	width: 255px;
+	height: 30px;
+	margin: 0 auto;
+}
+
+div.MainBox3{
+	width: 300px;
+	height: 30px;
+	margin: 0 auto;
+}
+
+div.help{
+	width: 15px;
+	height: 30px;
+	background-color: lightblue;
+}
+
+div.HeadingBox{
+	text-align:center;
+}
+
+div.SymbolBox{
+	margin-left: 348px;
+}
+
+
+h2.Output{
+	height: 30px;
+	background-color: lightgreen;
+	text-align:center;
+	color: green;
+	margin-left: auto;
+    margin-right: auto;
+}
+
+
+h1.Heading{
+	text-align:center;
+	background-color: lightblue;
+}
+
+input.Align{
+	margin-left: 352px;
+}
+
+input.Center{
+	font-size:150%;
+	color: blue;
+	margin: 0 auto;
+}
+
+
+select.Align{
+	margin-left: 330px;
+}

@@ -1,0 +1,45 @@
+div.MainBox{
+	width: 800px;
+	height: 400px;
+	margin: 0 auto;
+	background-color: gray;
+}
+
+div.HeadingBox{
+	text-align:center;
+}
+
+div.SymbolBox{
+	margin-left: 348px;
+}
+
+
+h2.Output{
+	height: 30px;
+	background-color: lightgreen;
+	text-align:center;
+	color: green;
+	margin-left: auto;
+    margin-right: auto;
+}
+
+
+h1.Heading{
+	text-align:center;
+	background-color: lightblue;
+}
+
+input.Align{
+	margin-left: 352px;
+}
+
+input.Center{
+	font-size:150%;
+	color: blue;
+	margin: 0 auto;
+}
+
+
+select.Align{
+	margin-left: 330px;
+}
