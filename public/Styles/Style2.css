@@ -64,12 +64,27 @@ p.Center2{
 	margin-left: 700px;
 }
 
+h4.Center2{
+	width: 550px;
+	margin-left: 700px;
+}
+
 p.Center3{
 	width: 500px;
 	margin-left: 710px;
 }
 
+h3.Center3{
+	width: 500px;
+	margin-left: 710px;
+}
+
 p.Center4{
+	width: 500px;
+	margin-left: 830px;
+}
+
+h3.Center4{
 	width: 500px;
 	margin-left: 830px;
 }
