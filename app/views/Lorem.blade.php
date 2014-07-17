@@ -2,7 +2,7 @@
 <!doctype html>
 <html lang="en">
 <head>
-	<LINK href="styles/Style2.css" rel="stylesheet" type="text/css">
+	<LINK href="Styles/Style2.css" rel="stylesheet" type="text/css">
 	<meta charset="UTF-8">
 	<title>Lorem Ipsum Text Generator</title>
 	
