@@ -88,7 +88,7 @@ Route::get('/RPG', function()
 {
 	$OutputPassword='';
 	$caseFlag = 'off';
-	$WordArray = file('data\WordFile2.txt');
+	$WordArray = file(app_path().'/data/WordFile2.txt');
 	$WordCnt = 0;
 	$SymCnt = 1;
 	$numFlag = 'off';
