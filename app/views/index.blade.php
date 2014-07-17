@@ -19,11 +19,11 @@
 			<div class="MainBox3">
 				<a class="link" href='/RUG'>Random User Generator</a>
 			</div>
-			<h3 class="Center3">Generates Random User Data (Name, DOB, Address, Text)</h3><br/><br/><br/>
+			<h3 class="Center3">Generates Random User Data (Name, DOB, Address, Text).</h3><br/><br/><br/>
 			<div class="MainBox3">
 				<a class="link" href='/RPG'>Random Password Generator</a>
 			</div>
-			<h3 class="Center4">Generates Random Password</h3><br/><br/><br/>
+			<h3 class="Center4">Generates Random Password.</h3><br/><br/><br/>
 		</div>
 	</body>
 
