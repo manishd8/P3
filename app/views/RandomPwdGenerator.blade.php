@@ -2,7 +2,7 @@
 <html>
 
 <head>
-  <LINK href="styles/Style1.css" rel="stylesheet" type="text/css">
+  <LINK href="styles/Style2.css" rel="stylesheet" type="text/css">
   <title>Manish Goyal P2</title>
   <meta charset="utf-8">
 </head>

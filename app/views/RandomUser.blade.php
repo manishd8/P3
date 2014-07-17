@@ -1,7 +1,7 @@
 <!doctype html>
 <html lang="en">
 <head>
-	<LINK href="styles/Style1.css" rel="stylesheet" type="text/css">
+	<LINK href="styles/Style2.css" rel="stylesheet" type="text/css">
 	<meta charset="UTF-8">
 	<title>Random user Generator</title>
 	
