@@ -15,7 +15,7 @@
 	<div class="MainBox1">
 		<h1 class="Heading">Text Generator</h1><br/>
 		<form action="/LIG" method="GET">
-		      <input type="text"  class="Align1" name="NumPara" maxlength="2" size = "1" value= <?php if($error=="no") {echo $NumPara;} ?> > <font size="4">&nbsp Number of Paragraph</font><br/>    
+		      <input type="text"  class="Align1" name="NumPara" maxlength="2" size = "1" value= <?php if($error=="no") {echo $NumPara;} ?> > <font size="4">&nbsp; Number of Paragraph</font><br/>    
 		 
 		 <?php
 		      if($error=="yes"){?><p class="Center1"><font size="3" color="red">Enter valid number</font></p> <?php

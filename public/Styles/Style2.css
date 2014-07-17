@@ -114,3 +114,12 @@ input.Center{
 select.Align{
 	margin-left: 330px;
 }
+
+a.link{
+	font-size:150%;
+}
+
+a.help{
+	font-size:160%;
+	color: green;
+}
