@@ -15,7 +15,7 @@ div.MainBox1{
 div.Center{
 	width: 1300px;
 	margin: 0 auto;
-	background-color: gray;
+	background-color: lightgreen;
 }
 
 div.MainBox3{
@@ -23,7 +23,7 @@ div.MainBox3{
 	height: 30px;
 	margin-left: 790px;
 	text-align:center;
-	background-color: gray;
+	
 }
 
 div.MainBox4{
